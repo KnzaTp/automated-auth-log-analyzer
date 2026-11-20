@@ -1,0 +1,3 @@
+ip_address,severity,alert_type,failed_attempts,successful_logins,targeted_users,compromised_users,first_seen,last_seen,recommended_action
+45.155.205.233,CRITICAL,Brute-Force Followed by Successful Login,5,1,"admin, deploy, oracle, postgres, root",deploy,Jan 15 10:22:05,Jan 15 10:22:16,Block IP immediately and reset compromised account password
+185.220.101.45,HIGH,Potential Brute-Force Attack,6,0,"admin, root, test, ubuntu",None,Jan 15 09:01:10,Jan 15 09:01:20,Block IP at firewall and monitor targeted accounts

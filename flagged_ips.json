@@ -1,0 +1,46 @@
+{
+    "generated_at_utc": "2026-11-20T10:21:00Z",
+    "source_log": "sample_auth.log",
+    "total_log_lines_parsed": 18,
+    "brute_force_threshold": 5,
+    "total_flagged_ips": 2,
+    "alerts": [
+        {
+            "ip_address": "45.155.205.233",
+            "severity": "CRITICAL",
+            "alert_type": "Brute-Force Followed by Successful Login",
+            "failed_attempts": 5,
+            "successful_logins": 1,
+            "targeted_users": [
+                "admin",
+                "deploy",
+                "oracle",
+                "postgres",
+                "root"
+            ],
+            "compromised_users": [
+                "deploy"
+            ],
+            "first_seen": "Jan 15 10:22:05",
+            "last_seen": "Jan 15 10:22:16",
+            "recommended_action": "Block IP immediately and reset compromised account password"
+        },
+        {
+            "ip_address": "185.220.101.45",
+            "severity": "HIGH",
+            "alert_type": "Potential Brute-Force Attack",
+            "failed_attempts": 6,
+            "successful_logins": 0,
+            "targeted_users": [
+                "admin",
+                "root",
+                "test",
+                "ubuntu"
+            ],
+            "compromised_users": [],
+            "first_seen": "Jan 15 09:01:10",
+            "last_seen": "Jan 15 09:01:20",
+            "recommended_action": "Block IP at firewall and monitor targeted accounts"
+        }
+    ]
+}

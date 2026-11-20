@@ -1,0 +1,18 @@
+Jan 15 08:12:01 prod-server sshd[1021]: Accepted password for nawaf from 192.168.1.15 port 51422 ssh2
+Jan 15 08:15:33 prod-server sshd[1024]: Failed password for nawaf from 192.168.1.15 port 51488 ssh2
+Jan 15 08:15:40 prod-server sshd[1024]: Accepted password for nawaf from 192.168.1.15 port 51488 ssh2
+Jan 15 09:01:10 prod-server sshd[1101]: Failed password for invalid user admin from 185.220.101.45 port 44102 ssh2
+Jan 15 09:01:12 prod-server sshd[1102]: Failed password for invalid user root from 185.220.101.45 port 44105 ssh2
+Jan 15 09:01:14 prod-server sshd[1103]: Failed password for root from 185.220.101.45 port 44108 ssh2
+Jan 15 09:01:16 prod-server sshd[1104]: Failed password for invalid user ubuntu from 185.220.101.45 port 44110 ssh2
+Jan 15 09:01:18 prod-server sshd[1105]: Failed password for invalid user test from 185.220.101.45 port 44112 ssh2
+Jan 15 09:01:20 prod-server sshd[1106]: Failed password for root from 185.220.101.45 port 44115 ssh2
+Jan 15 10:22:05 prod-server sshd[1210]: Failed password for invalid user oracle from 45.155.205.233 port 39811 ssh2
+Jan 15 10:22:07 prod-server sshd[1211]: Failed password for invalid user postgres from 45.155.205.233 port 39814 ssh2
+Jan 15 10:22:09 prod-server sshd[1212]: Failed password for invalid user admin from 45.155.205.233 port 39819 ssh2
+Jan 15 10:22:11 prod-server sshd[1213]: Failed password for root from 45.155.205.233 port 39822 ssh2
+Jan 15 10:22:13 prod-server sshd[1214]: Failed password for deploy from 45.155.205.233 port 39825 ssh2
+Jan 15 10:22:16 prod-server sshd[1215]: Accepted password for deploy from 45.155.205.233 port 39830 ssh2
+Jan 15 11:05:19 prod-server sshd[1301]: Failed password for invalid user guest from 103.85.24.19 port 60112 ssh2
+Jan 15 11:05:25 prod-server sshd[1302]: Failed password for invalid user guest from 103.85.24.19 port 60115 ssh2
+Jan 15 11:40:00 prod-server sshd[1350]: Accepted password for sarah from 10.0.0.8 port 49210 ssh2
